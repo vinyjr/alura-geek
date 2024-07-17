@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+:root {
+    --primary-color: #424769;
+    --second-color: #7077A1;
+    --third-color: #F6B17A;
+
+    --background-Color: #ffffff;
+
+    --font-color: #2D3250; 
+    --primary-font: "Yanone Kaffeesatz", sans-serif;
+    --second-font: "Open Sans", sans-serif;
+}
+
+.page-width {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    height: 96px;
+    box-shadow: 1px 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+main {
+    height: auto;
+    gap: 40px;
+}
+
+.title {
+    font-family: var(--primary-font);
+    font-weight: 800;
+    font-size: 3rem;
+    color: var(--font-color);
+}
+
+.subtitle {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--font-color);
+}
+
+.main-title {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    color: var(--font-color);
+    text-align: center;
+}
+
+.product-page-box{
+    padding: 40px 0 40px 40px;
+    width: 70%;
+}
+
+.products-title-box {
+    padding: 0 0 40px 0;
+}
+
+.products-box {
+    width: 100%;
+}
+
+.product-box{
+    width: 196px;
+    height: 258px;
+    border: solid 3px var(--third-color);
+    border-radius: 6px;
+    background-color: var(--background-Color);
+}
+
+.product-img {
+    padding: 10px 0 0 0;
+    width: 176px;
+    height: 174px;
+}
+
+.product-info-box {
+    width: 176px;
+    height: 24px;
+}
+
+.product-title {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    color: var(--font-color);
+}
+
+.product-price {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-style: bold;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--font-color);
+}
+
+.product-button-delete {
+    background-color: transparent;
+    border: none;
+}
+
+.form-box {
+    padding: 40px 80px 40px 40px;
+    width: 30%;
+    height: 517px;
+}
+
+form {
+    width: 100%;
+}
+
+.form-button-box {
+    width: 100%;
+}
+
+.button-save{
+    background-color: var(--third-color);
+    color: var(--font-color);
+}
+
+.button-delete {
+    background-color: var(--white);
+    color: var(--font-color);
+}
+
+.button-form {
+    width: 47%;
+    height: 55px;
+    border: solid 3px var(--third-color);
+    border-radius: 50px;
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+
+input {
+    width: 100%;
+    height: 58px;
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--font-color);
+    border: solid 3px var(--third-color);
+    border-radius: 50px;
+    padding: 0 10px 0 10px;
+}
+
+footer {
+    height: 150px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--font-color);
+    text-align: center;
+}
+
+@media (max-width: 798px) {
+    header {
+        height: auto;
+        padding: 20px;
+    }
+
+    .product-page-box {
+        padding: 40px;
+    }
+
+    .products-box {
+        width: auto;
+    }
+
+    .form-box {
+        padding: 40px;
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+}

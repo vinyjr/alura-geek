@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/display.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header class="page-width">
+        <h1 class="title">AluraGeek</h1>
+    </header>
+
+    <main class="page-width">
+        <div class="product-page-box">
+            <div class="products-title-box">
+                <h1 class="main-title">MEUS PRODUTOS:</h1>
+            </div> 
+            <div class="products-box" data-product>
+                <!-- Espaço destinado para adição produtos -->
+            </div>
+        </div>
+
+        <section class="form-box">
+            <h1 class="main-title">CADASTRAR PRODUTO:</h1>
+            <form data-form>
+                <input type="text" placeholder="Nome..." data-name>
+                <input type="text" placeholder="Valor..." data-value>
+                <input type="text" placeholder="URL da imagem..." data-image>
+            </form>
+            <div class="form-button-box">
+                <button class="button-save button-form" type="submit" id="button-submit">Salvar</button>
+                <button class="button-delete button-form" type="reset" id="button-clear">Limpar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-width">
+        <div class="footer-title">
+            <h1 class="title">AluraGeek</h1>
+        </div>
+        <div class="footer-subtitle">
+            <h3 class="subtitle">Desenvolvido por Vinicius Batista</h3>
+        </div>
+    </footer>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
